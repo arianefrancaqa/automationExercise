@@ -1,0 +1,27 @@
+{
+  "name": "automationexercise",
+  "version": "1.0.0",
+  "description": "finetune automation exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arianefrancaqa/automationExercise.git"
+  },
+  "keywords": [
+    "automation",
+    "cypress",
+    "javascript"
+  ],
+  "author": "Ariane França",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arianefrancaqa/automationExercise/issues"
+  },
+  "homepage": "https://github.com/arianefrancaqa/automationExercise#readme",
+  "devDependencies": {
+    "cypress": "^13.7.2"
+  }
+}
