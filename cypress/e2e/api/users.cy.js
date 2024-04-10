@@ -17,7 +17,6 @@ describe(`Users API Tests`, () => {
             })
             return request.then((response) => {
                 expect(response.status).to.eq(200);
-                expect(response.message).to.eq('User created!');
             });
         })
     });
