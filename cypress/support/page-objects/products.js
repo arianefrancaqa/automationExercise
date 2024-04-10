@@ -5,5 +5,8 @@ export const productsPage = {
     searchBar: '#search_product',
     submitSearchButton: '#submit_search',
     title: '.title',
-    productInfo: '.productinfo.text-center p'
+    productInfo: '.productinfo.text-center p',
+    viewCartModalLink: '[href="/view_cart"]',
+    productSelector: (id) => `[data-product-id="${id}"]`,
+    product1: '#product-1'
 }
