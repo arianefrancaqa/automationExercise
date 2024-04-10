@@ -20,6 +20,7 @@ jobs:
       - name: Run Cypress Tests
         uses: cypress-io/github-action@v2
         with:
+          config-file: cypress.config.ts
           record: true
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
