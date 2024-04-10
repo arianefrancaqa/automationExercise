@@ -3,8 +3,10 @@
 #### This project utilizes Cypress for end-to-end testing of the web application available at https://automationexercise.com/. It's structured to comprehensively test user interactions and API integrations, ensuring a robust evaluation of the application's functionalities.
 
 ## Project Structure
-e2e/ - Contains all the test suites, each focusing on specific functionalities as per the requirements.
-support/ - Includes custom commands and reusable functions to streamline test scripts.
+- e2e/ - Contains all the test suites, each focusing on specific functionalities as per the requirements.
+- support/ - Includes custom commands and reusable functions to streamline test scripts.
+- git hub actions - E2E will run for every commit
+- Cypress Cloud: https://cloud.cypress.io/projects/nzd4fh/
 
 ## Test Requirements
 1.  Sign Up for Account - Verifies the user registration process.
@@ -22,8 +24,8 @@ support/ - Includes custom commands and reusable functions to streamline test sc
 ## Setup and Execution
 1. Install Node.js and npm on your machine.
 2. Clone the repository and navigate into the project directory.
-3. Run npm install to install dependencies.
-4. Execute tests with npx cypress open for a GUI interface or npx cypress run for command line execution.
+3. Run `npm install` to install dependencies.
+4. Execute tests with `npx cypress open` for a GUI interface or `npx cypress run` for command line execution.
 
 ## Author
 ### Ariane França
