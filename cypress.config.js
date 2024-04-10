@@ -5,6 +5,7 @@ module.exports = defineConfig({
     baseUrl: 'https://automationexercise.com/',
     env: {
       requestMode: true,
+      apiUrl: 'https://automationexercise.com/api/',
       baseUrl: 'https://automationexercise.com/'
     },
     setupNodeEvents(on, config) {
