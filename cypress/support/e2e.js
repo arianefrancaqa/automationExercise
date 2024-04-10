@@ -15,7 +15,7 @@
 
 // Import commands.js using ES2015 syntax:
 import 'cypress-plugin-api'
-import './helpers/fake-data/generate-random-data'
+import './helpers/fake-data'
 
 
 const customCommandsContext = require.context('./customCommands', true, /\.js$/);

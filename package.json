@@ -23,5 +23,9 @@
   "homepage": "https://github.com/arianefrancaqa/automationExercise#readme",
   "devDependencies": {
     "cypress": "^13.7.2"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cypress-plugin-api": "^2.11.1"
   }
 }
