@@ -25,5 +25,7 @@ support/ - Includes custom commands and reusable functions to streamline test sc
 3. Run npm install to install dependencies.
 4. Execute tests with npx cypress open for a GUI interface or npx cypress run for command line execution.
 
-## Auther
+## Author
 ### Ariane França
+
+[![cypress](https://img.shields.io/endpoint?url=https://cloud.cypress.io/badge/detailed/nzd4fh&style=flat&logo=cypress)](https://cloud.cypress.io/projects/nzd4fh/runs)
