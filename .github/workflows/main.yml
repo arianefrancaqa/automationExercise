@@ -17,7 +17,7 @@ jobs:
 
     - uses: cypress-io/github-action@v2
       with:
-        command: npx cypress run --record --key ${{ secrets.CYPRESS_RECORD_KEY }} --spec
+        command: npx cypress run --spec "cypress/e2e/**/*"
         record: true
       env:
         CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
